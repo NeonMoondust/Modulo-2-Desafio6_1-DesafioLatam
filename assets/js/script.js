@@ -32,10 +32,10 @@ function getDataForm() {
     let nombre_propietario = document.getElementById('propietario').value;
     let direccion = document.getElementById('direccion').value;
     let telefono = document.getElementById('telefono').value;
-    let nombreMascota = document.getElementById('nombreMascota').value;
+    let nombre_mascota = document.getElementById('nombreMascota').value;
     let tipo = document.getElementById('tipo').value;
     let enfermedad = document.getElementById('enfermedad').value;
-    return new Mascota(nombre_propietario, direccion, telefono, tipo, nombreMascota, enfermedad);
+    return new Mascota(nombre_propietario, direccion, telefono, tipo, nombre_mascota, enfermedad);
 }
 
 function deployData(data_obj) {
